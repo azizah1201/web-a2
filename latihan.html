@@ -1,12 +1,31 @@
 <html>
     <head> 
     <title>web pembelajaran</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        form {
+            width: 600px;
+            padding: 10px;
+        }
+
+        label {
+            display: block;
+        }
+    
+    </style>
     </head>
     <body>
         <h1 style="font-style: inherit; background-color: blueviolet;color: beige; text-align: center;">WEB PEMBELAJARAN TP</h1>
-        <h2 style="text-align: center;">Kelas A2 Hari Selasa Jam 09.20</h2>
+        <br>
+        <h2 style="text-align: center;" >Kelas A2 Hari Selasa Jam 09.20 </h2>
+        <br>
         <p style="font-size: x-large; color: rgb(113, 32, 145); border-style: groove; border-color: blue; text-align: center; ">Data Mahasiswa Mata kuliah Web Pembelajaran</p>
         <center>
+            <br>
             <table border="1">
                 <tr>
                     <td>No</td>
@@ -30,15 +49,48 @@
                 </tr>
             </table>
             <br>
+            <form action="" method="post">
+                <div>
+                    <label for="nama">Nama : </label>
+                    <input type="text" name="nama" id="nama">
+                </div>
+                <div>
+                    <label for="nim">Nim : </label>
+                    <input type="number" name="nim" id="nim">
+                </div>
+                <div>
+                    <label for="slider">Rate : </label>
+                    <input type="range" name="slider" id="slider">
+                </div>
+                <div>
+                    <label for="tanggal">Tanggal Lahir : </label>
+                    <input type="date" name="tanggal" id="tanggal">
+                </div>
+                <br>
+                <div>
+                    <button type="submit">Kirim</button>
+                </div>
+            </form>
+            <figcaption>
+                Web Pengenalan Dasar HTML untuk Pemula :
+            </figcaption>
+            <a href="Pengenalan Dasar HTML untuk Pemula.html" target="_blank" > https://www.petanikode.com/html-dasar/ </a>
+            <br>
+            <br>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Q2VqCG13ejA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <br>
+            <br>
             <figure>
                 <figcaption>
                     Lihat Video : "Belajar HTML5 Audio dan Video"
                 </figcaption>
                 <video src="Belajar HTML5.mp4" width="500" controls></video>
             </figure>
-            <audio controls src="Cosmos.mp3"></audio>
             <br>
+            <figcaption>
+                Dengerin Musik dulu yuk!
+            </figcaption>
+            <audio controls src="Cosmos.mp3"></audio>
             <br>
             <img src="hero-img.png">
         </center>
